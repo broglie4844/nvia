@@ -29,8 +29,8 @@ class Bot(Client):
         await super().start()
         await Media.ensure_indexes()
         me = await self.get_me()
-        self.username = '@' + me.username
-        print(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
+        self.username = '@' + me.t48444844
+        print(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.t48444844}.")
 
     async def stop(self, *args):
         await super().stop()
